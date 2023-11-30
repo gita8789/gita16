@@ -1,0 +1,1319 @@
+<html>
+	<head>
+		<style>
+			#headarea{
+				width:100%;
+				height:40px;
+				background:#F08080;
+				cursor:pointer;
+			}.halfarea1{
+				width:50%;
+				height:40px;
+				float:right;
+				background:#F08080;
+				color:white;
+				text-align:right;
+			}
+			.halfarea1 p:hover{
+				color:pink;
+			}
+			.halfarea11{
+				width:50%;
+				height:40px;
+				float:right;
+				background:#F08080;
+				color:white;
+				text-align:left;
+			}
+			.halfarea11 p:hover{
+				color:pink;
+			}
+			/*@keyframes house{
+				0%{
+					background:;
+					transform:translateX(0px);
+				}
+				99%{
+					background:;
+					transform:translateX(600px);
+				}
+				100%{
+					background:;
+					transform:translateX(600px);
+				}
+				}*/
+			#titlearea{
+				width:100%;
+				height:110px;
+				background:#FADBD8;
+				text-align:center;
+			}
+			#titlearea img{
+				padding-top:30px;
+				position:relative;
+				height:70px;
+				/*animation-name:house;
+				animation-duration:4s;
+				animation-iteration-count:1;
+				animation-timing-function:ease-in-out;*/
+			}
+			#menuarea{
+				width:100%;
+				height:50px;
+				background:#E9255D;
+				position:sticky;
+				top:0;
+				z-index:2000;
+				cursor:pointer;
+			}
+			#menuarea ul{
+				list-style:none;
+				margin:0;
+				padding:0;
+			}
+			#menuarea ul li{
+				float:left;
+				color:black;
+				background:;
+				display:block;
+				padding:10px 25px;
+				color:white;
+			}
+			#menuarea ul li:hover{
+				color:pink;
+				border-bottom:solid 2px blue;	
+			}
+			#mainarea{
+				width:100%;
+				height:400px;
+				background:;
+				border-radius:30px;	
+			}
+				#mainarea img{
+					width:1200px;
+					height:400px;
+					border-radius:40px;
+					
+				}
+			#toparea{
+				width:100%;
+				height:700px;
+				background:;
+			}
+			.details{
+				position:absolute;
+				bottom:10;
+				color:#F08080;
+				width:100%;
+				padding:10px;
+				text-align:justify;
+				text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
+			}
+				.ca1{
+					width:100%;
+					height:50px;
+					background:;
+					padding-top:30px;
+					float:left;
+					text-align:center;
+					color:#D45A7D;
+					font-family:;
+				}
+				.ca1 h1{
+					font-size:40px;
+					line-height:90px;
+				}
+				.ca1 img{
+					width:40px;
+					height:40px;
+					padding-bottom:50px;
+				}
+				.box1{
+					width:266px;
+					height:450px;
+					margin-top:100px;
+					margin-right:20px;
+					margin-bottom:px;
+					margin-left:0px;
+					background:white;
+					float:left;
+					overflow:hidden;
+					border:solid 2px pink;
+					border-radius:30px;
+					position:relative;
+				}
+					.box1 img{
+						width:266px;
+						height:285px;
+						opacity:0.8;
+						transition:transform,opacity;
+					}
+					.box1 img:hover{
+						opacity:1;
+						transform:scale(1.2,1.2);	
+					}
+					.inb1{
+						width:266;
+						height:100px;														
+						background:white;
+						text-align:center;
+						padding-top:100px;				
+					}
+					.inb1 a:link{
+						background:#D7316C;
+						color:white;
+						text-decoration:none;
+						padding:10px 25px;
+						border-radius:30px;
+					}
+					.inb1 a:hover{
+						background:white;
+						color:#D7316C;
+						text-decoration:none;
+						border:solid 2px pink;
+					}
+				.box2{
+					width:266px;
+					height:450px;
+					margin-top:100px;
+					margin-right:20px;
+					margin-bottom:px;
+					margin-left:20px;
+					background:white;
+					float:left;
+					overflow:hidden;
+					border:solid 2px pink;
+					border-radius:30px;
+					position:relative;
+				}
+					.box2 img{
+						width:266px;
+						height:285px;
+						opacity:0.8;
+						transition:transform,opacity;
+					}
+					.box2 img:hover{
+						opacity:1;
+						transform:scale(1.2,1.2);	
+					}
+					.inb2{
+						width:266;
+						height:100px;														
+						background:white;
+						text-align:center;
+						padding-top:100px;
+					}
+					.inb2 a:link{
+						background:#D7316C;
+						color:white;
+						text-decoration:none;
+						padding:10px 25px;
+						border-radius:30px;
+					}
+					.inb2 a:hover{
+						background:white;
+						color:#D7316C;
+						text-decoration:none;
+						border:solid 2px pink;
+					}
+				.box3{
+					width:266px;
+					height:450px;
+					margin-top:100px;
+					margin-right:20px;
+					margin-bottom:px;
+					margin-left:20px;
+					background:white;
+					float:left;
+					overflow:hidden;
+					border:solid 2px pink;
+					border-radius:30px;
+					position:relative;
+				}
+					.box3 img{
+						width:266px;
+						height:285px;
+						opacity:0.8;
+						transition:transform,opacity;
+					}
+					.box3 img:hover{
+						opacity:1;
+						transform:scale(1.2,1.2);	
+					}
+					.inb3{
+						width:266;
+						height:100px;														
+						background:white;
+						text-align:center;
+						padding-top:100px;
+					}
+					.inb3 a:link{
+						background:#D7316C;
+						color:white;
+						text-decoration:none;
+						padding:10px 25px;
+						border-radius:30px;
+					}
+					.inb3 a:hover{
+						background:white;
+						color:#D7316C;
+						text-decoration:none;
+						border:solid 2px pink;
+					}
+				.box4{
+					width:266px;
+					height:450px;
+					margin-top:100px;
+					margin-right:0px;
+					margin-bottom:px;
+					margin-left:20px;
+					background:white;
+					float:left;
+					overflow:hidden;
+					border:solid 2px pink;
+					border-radius:30px;
+					position:relative;		
+				}
+					.box4 img{
+						width:266px;
+						height:285px;
+						opacity:0.8;
+						transition:transform,opacity;
+					}
+					.box4 img:hover{
+						opacity:1;
+						transform:scale(1.2,1.2);	
+					}
+					.inb4{
+						width:266;
+						height:100px;														
+						background:white;
+						text-align:center;
+						padding-top:100px;
+					}
+					.inb4 a:link{
+						background:#D7316C;
+						color:white;
+						text-decoration:none;
+						padding:10px 25px;
+						border-radius:30px;
+					}
+					.inb4 a:hover{
+						background:white;
+						color:#D7316C;
+						text-decoration:none;
+						border:solid 2px pink;
+					}	
+			}
+			#multiarea{
+				width:100%;
+				height:500px;
+				background:black;	
+			}
+				.heading{
+					width:100%;
+					height:70px;
+					background:;	
+				}
+				.heading1{
+					width:1000;
+					height:70px;
+					background:;
+					float:left;
+				}
+				.heading2{
+					width:200px;
+					height:55px;
+					background:#D45A7D;
+					float:right;
+					border-radius:15px;
+					margin-top:5px;
+					text-align:center;
+					color:white;
+				}
+				.heading2:hover{
+					width:196px;
+					height:51pxS;
+					color:#D45A7D;
+					background:white;
+					border:solid 2px pink;
+				}
+					.squarea{
+						width:220;
+						height:220px;
+						background:;
+						margin-top:20px;
+						margin-right:12.5;
+						margin-bottom:;
+						margin-left:0;
+						float:left;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.squarea img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.squarea img:hover{
+							transform:scale(1.2,1.2);
+						}	
+					.squareb{
+						width:220;
+						height:220px;
+						background:;
+						margin-top:20px;
+						margin-right:12.5;
+						margin-bottom:;
+						margin-left:12.5;
+						float:left;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.squareb img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.squareb img:hover{
+							transform:scale(1.2,1.2);
+						}
+					.squarec{
+						width:220;
+						height:220px;
+						background:;
+						margin-top:20px;
+						margin-right:12.5;
+						margin-bottom:;
+						margin-left:12.5;
+						float:left;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.squarec img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.squarec img:hover{
+							transform:scale(1.2,1.2);
+						}	
+					.squared{
+						width:220;
+						height:220px;
+						background:;
+						margin-top:20px;
+						margin-right:12.5;
+						margin-bottom:;
+						margin-left:12.5;
+						float:left;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.squared img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.squared img:hover{
+							transform:scale(1.2,1.2);
+						}
+				
+					.squaree{
+						width:220;
+						height:220px;
+						background:blue;
+						margin-top:20px;
+						margin-right:0;
+						margin-bottom:;
+						margin-left:12.5;
+						float:right;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.squaree img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.squaree img:hover{
+							transform:scale(1.2,1.2);
+						}
+				#describe{
+					width:100%;
+					height:60px;
+					background:;
+					margin-top:240px;
+
+				}
+					.describe1{
+						width:140;
+						height:60px;
+						margin-right:12.5;
+						margin-left:0;
+						background:;
+						float:left;
+						text-align:justify;
+						padding:0 40px;
+					}
+					.describe2{
+						width:140;
+						height:60px;
+						margin-right:12.5;
+						margin-left:12.5;
+						background:;
+						float:left;
+						text-align:center;
+						padding:0 40px;
+					}
+					.describe3{
+						width:140;
+						height:60px;
+						margin-right:12.5;
+						margin-left:12.5;
+						background:;
+						float:left;
+						text-align:center;
+						padding:0 40px;
+					}
+					.describe4{
+						width:140;
+						height:60px;
+						margin-right:12.5;
+						margin-left:12.5;
+						background:;
+						float:left;
+						text-align:center;
+						padding:0 40px;
+					}
+					.describe5{
+						width:140;
+						height:60px;
+						margin-right:0;
+						margin-left:12.5;
+						background:;
+						float:left;
+						text-align:center;
+						padding:0 40px;
+					}
+			
+			#mirarea{
+				width:100%;
+				height:400px;
+				background:#D7BDE2;
+				border-radius:50px;
+				margin-top:100px;
+			}
+			.trend{
+				width:100%;
+				height:50px;
+				background:;
+				padding-top:2px;
+				text-align:center;
+				color:#D45A7D;
+			}
+				.mirror1{
+					width:270px;
+					height:300px;
+					margin-top:25px;
+					margin-right:20px;
+					margin-bottom:px;
+					margin-left:0px;
+					background:white;
+					float:left;
+					border-radius:50% 50% 10px 10px;
+					color:#F08080;
+					border-bottom:solid 3px pink;
+					box-shadow:5px 5px 5px black;
+					overflow:hidden;
+					text-align:center;
+					font-size:20px;
+				}
+					.mirror1 img{
+						width:270;
+						height:250;
+						transition:transform 3s;
+					}
+					.mirror1 img:hover{
+						transform:scale(1.2,1.2);
+					}
+				.mirror2{
+					width:270px;
+					height:300px;
+					margin-top:25px;
+					margin-right:20px;
+					margin-bottom:0px;
+					margin-left:20px;
+					background:white;
+					float:left;
+					border-radius:50% 50% 10px 10px;
+					color:#F08080;
+					border-bottom:solid 3px pink;
+					box-shadow:5px 5px 5px black;
+					overflow:hidden;
+					text-align:center;
+					font-size:20px;
+				}
+					.mirror2 img{
+						width:270;
+						height:250;
+						transition:transform 3s;
+					}
+					.mirror2 img:hover{
+						transform:scale(1.2,1.2);
+					}
+				.mirror3{
+					width:270px;
+					height:300px;
+					margin-top:25px;
+					margin-right:20px;
+					margin-bottom:0px;
+					margin-left:20px;
+					background:white;
+					float:left;
+					border-radius:50% 50% 10px 10px;
+					color:#F08080;
+					border-bottom:solid 3px pink;
+					box-shadow:5px 5px 5px black;
+					overflow:hidden;
+					text-align:center;
+					font-size:20px;
+				}
+					.mirror3 img{
+						width:270;
+						height:250;
+						transition:transform 3s;
+					}
+					.mirror3 img:hover{
+						transform:scale(1.2,1.2);
+					}
+				.mirror4{
+					width:270px;
+					height:300px;
+					margin-top:25px;
+					margin-right:0px;
+					margin-bottom:0px;
+					margin-left:20px;
+					background:white;
+					float:left;
+					border-radius:50% 50% 10px 10px;
+					color:#F08080;
+					border-bottom:solid 3px pink;
+					box-shadow:5px 5px 5px black;
+					overflow:hidden;
+					text-align:center;
+					font-size:20px;
+				}
+					.mirror4 img{
+						width:270;
+						height:250;
+						transition:transform 3s;
+					}
+					.mirror4 img:hover{
+						transform:scale(1.2,1.2);
+					}
+			
+			#minearea{
+				width:100%;
+				height:430px;
+				background:;
+				margin-top:70px;	
+			}
+				.hd{
+					width:100%;
+					height:70px;
+					background:;	
+				}
+				.hd1{
+					width:1000;
+					height:70px;
+					background:;
+					float:left;
+				}
+				.hd2{
+					width:200px;
+					height:55px;
+					background:#D45A7D;
+					float:right;
+					border-radius:15px;
+					margin-top:5px;
+					text-align:center;
+					color:white;
+				}
+				.hd2:hover{
+					width:196px;
+					height:51pxS;
+					color:#D45A7D;
+					background:white;
+					border:solid 2px pink;
+				}
+					.sqa{
+						width:220;
+						height:220px;
+						background:;
+						margin-top:20px;
+						margin-right:12.5;
+						margin-bottom:;
+						margin-left:0;
+						float:left;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.sqa img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.sqa img:hover{
+							transform:scale(1.2,1.2);
+						}	
+					.sqb{
+						width:220;
+						height:220px;
+						background:;
+						margin-top:20px;
+						margin-right:12.5;
+						margin-bottom:;
+						margin-left:12.5;
+						float:left;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.sqb img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.sqb img:hover{
+							transform:scale(1.2,1.2);
+						}
+					.sqc{
+						width:220;
+						height:220px;
+						background:;
+						margin-top:20px;
+						margin-right:12.5;
+						margin-bottom:;
+						margin-left:12.5;
+						float:left;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.sqc img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.sqc img:hover{
+							transform:scale(1.2,1.2);
+						}	
+					.sqd{
+						width:220;
+						height:220px;
+						background:;
+						margin-top:20px;
+						margin-right:12.5;
+						margin-bottom:;
+						margin-left:12.5;
+						float:left;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.sqd img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.sqd img:hover{
+							transform:scale(1.2,1.2);
+						}
+				
+					.sqe{
+						width:220;
+						height:220px;
+						background:blue;
+						margin-top:20px;
+						margin-right:0;
+						margin-bottom:;
+						margin-left:12.5;
+						float:right;
+						border-radius:30px;
+						overflow:hidden;
+					}
+						.sqe img{
+							width:220px;
+							height:220px;
+							border-radius:30px;
+						}
+						.sqe img:hover{
+							transform:scale(1.2,1.2);
+						}
+				#des{
+					width:100%;
+					height:60px;
+					background:;
+					margin-top:240px;
+
+				}
+					.des1{
+						width:140;
+						height:60px;
+						margin-right:12.5;
+						margin-left:0;
+						background:;
+						float:left;
+						text-align:justify;
+						padding:0 40px;
+					}
+					.des2{
+						width:140;
+						height:60px;
+						margin-right:12.5;
+						margin-left:12.5;
+						background:;
+						float:left;
+						text-align:center;
+						padding:0 40px;
+					}
+					.des3{
+						width:140;
+						height:60px;
+						margin-right:12.5;
+						margin-left:12.5;
+						background:;
+						float:left;
+						text-align:center;
+						padding:0 40px;
+					}
+					.des4{
+						width:140;
+						height:60px;
+						margin-right:12.5;
+						margin-left:12.5;
+						background:;
+						float:left;
+						text-align:center;
+						padding:0 40px;
+					}
+					.des5{
+						width:140;
+						height:60px;
+						margin-right:0;
+						margin-left:12.5;
+						background:;
+						float:left;
+						text-align:center;
+						padding:0 40px;
+					}
+			#larea{
+				width:100%;
+				height:700px;
+				background:;
+			}
+			.ldetails{
+				position:absolute;
+				bottom:10;
+				color:#F08080;
+				width:100%;
+				padding:10px;
+				text-align:justify;
+				text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
+			}
+				.la1{
+					width:100%;
+					height:50px;
+					background:;
+					padding-top:30px;
+					float:left;
+					text-align:center;
+					color:#D45A7D;
+					font-family:;
+				}
+				.la1 h1{
+					font-size:40px;
+					line-height:90px;
+				}
+				.la1 img{
+					width:40px;
+					height:40px;
+					padding-bottom:50px;
+				}
+				.cube1{
+					width:266px;
+					height:450px;
+					margin-top:100px;
+					margin-right:20px;
+					margin-bottom:px;
+					margin-left:0px;
+					background:white;
+					float:left;
+					overflow:hidden;
+					border:solid 2px pink;
+					border-radius:30px;
+					position:relative;
+				}
+					.cube1 img{
+						width:266px;
+						height:285px;
+						opacity:0.8;
+						transition:transform,opacity;
+					}
+					.cube1 img:hover{
+						opacity:1;
+						transform:scale(1.2,1.2);	
+					}
+					.inl1{
+						width:266;
+						height:100px;														
+						background:white;
+						text-align:center;
+						padding-top:100px;				
+					}
+					.inl1 a:link{
+						background:#D7316C;
+						color:white;
+						text-decoration:none;
+						padding:10px 25px;
+						border-radius:30px;
+					}
+					.inl1 a:hover{
+						background:white;
+						color:#D7316C;
+						text-decoration:none;
+						border:solid 2px pink;
+					}
+				.cube2{
+					width:266px;
+					height:450px;
+					margin-top:100px;
+					margin-right:20px;
+					margin-bottom:px;
+					margin-left:20px;
+					background:white;
+					float:left;
+					overflow:hidden;
+					border:solid 2px pink;
+					border-radius:30px;
+					position:relative;
+				}
+					.cube2 img{
+						width:266px;
+						height:285px;
+						opacity:0.8;
+						transition:transform,opacity;
+					}
+					.cube2 img:hover{
+						opacity:1;
+						transform:scale(1.2,1.2);	
+					}
+					.inl2{
+						width:266;
+						height:100px;														
+						background:white;
+						text-align:center;
+						padding-top:100px;
+					}
+					.inl2 a:link{
+						background:#D7316C;
+						color:white;
+						text-decoration:none;
+						padding:10px 25px;
+						border-radius:30px;
+					}
+					.in2 a:hover{
+						background:white;
+						color:#D7316C;
+						text-decoration:none;
+						border:solid 2px pink;
+					}
+				.cube3{
+					width:266px;
+					height:450px;
+					margin-top:100px;
+					margin-right:20px;
+					margin-bottom:px;
+					margin-left:20px;
+					background:white;
+					float:left;
+					overflow:hidden;
+					border:solid 2px pink;
+					border-radius:30px;
+					position:relative;
+				}
+					.cube3 img{
+						width:266px;
+						height:285px;
+						opacity:0.8;
+						transition:transform,opacity;
+					}
+					.cube3 img:hover{
+						opacity:1;
+						transform:scale(1.2,1.2);	
+					}
+					.inl3{
+						width:266;
+						height:100px;														
+						background:white;
+						text-align:center;
+						padding-top:100px;
+					}
+					.inl3 a:link{
+						background:#D7316C;
+						color:white;
+						text-decoration:none;
+						padding:10px 25px;
+						border-radius:30px;
+					}
+					.inl3 a:hover{
+						background:white;
+						color:#D7316C;
+						text-decoration:none;
+						border:solid 2px pink;
+					}
+				.cube4{
+					width:266px;
+					height:450px;
+					margin-top:100px;
+					margin-right:0px;
+					margin-bottom:px;
+					margin-left:20px;
+					background:white;
+					float:left;
+					overflow:hidden;
+					border:solid 2px pink;
+					border-radius:30px;
+					position:relative;		
+				}
+					.cube4 img{
+						width:266px;
+						height:285px;
+						opacity:0.8;
+						transition:transform,opacity;
+					}
+					.cube4 img:hover{
+						opacity:1;
+						transform:scale(1.2,1.2);	
+					}
+					.inl4{
+						width:266;
+						height:100px;														
+						background:white;
+						text-align:center;
+						padding-top:100px;
+					}
+					.inl4 a:link{
+						background:#D7316C;
+						color:white;
+						text-decoration:none;
+						padding:10px 25px;
+						border-radius:30px;
+					}
+					.inl4 a:hover{
+						background:white;
+						color:#D7316C;
+						text-decoration:none;
+						border:solid 2px pink;
+					}	
+			
+			#darea{
+				width:100%;
+				height:600px;
+				background-size:cover;
+				background-attachment:fixed;
+				background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url('candy7.jpg');
+			}
+			.da1{
+				width:300px;
+				height:450px;
+				padding:0x 0px;
+				background:;
+				float:left;
+				color:#C70039;
+				list-style-position:inside;
+				cursor:pointer;
+
+			}
+			.da1 li:hover{
+				transform:translateX(15px);
+			}
+			.bor{
+				border-left:solid 10px white;
+				padding-left:10px;
+			}
+			
+			#m1{
+				width:1200px;
+				height:3px;
+				float:right;
+				background-image:linear-gradient(to right,transparent 0%,#C70039 50%,transparent 100%);
+			}
+			#n1{
+				width:100%;
+				height:40px;
+				padding-bottom:50px 0px;
+				text-align:center;
+				color:#C70039;
+				float:left;
+			}
+			.inner{
+				width:1200px;
+				margin:0 auto;
+			}
+			.bg1{
+				background:red;
+			}
+			.bg1{
+				background:blue;
+			}
+			.bg1{
+				background:green;
+			}
+			.bg1{
+				background:yellow;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="headarea">
+			<div class="inner">
+				<div class="halfarea1">Copyright. 2023. FA GIFTS PVT. LTD</div>
+				<div class="halfarea11">Contact-us:- +0145789064</div>
+			</div>
+		</div>
+		<div id="titlearea">
+			<img src="logo1.svg"/>
+		</div>
+		<div id="menuarea">
+			<div class="inner">
+				<ul>
+					<li>Express Delivery</li>
+					<li>Cakes</li>
+					<li>Flowers</li>
+					<li>Combos</li>
+					<li>Personalised</li>
+					<li>Plants</li>
+					<li>Gifts</li>
+					<li>Anniversary</li>
+					<li>Birthday</li>
+					<li>Occasions</li>
+				</ul>
+			</div>
+		</div>
+		<div id="mainarea">
+			<div class="inner">
+				<img src="bcake1.avif"/>
+			</div>
+		</div>
+		<div id="toparea">
+			<div class="inner">
+				<div class="ca1"><h1>Online cake delivery</h1>
+				</div>
+				<div class="box1"><img src="egglesscake.avif"/>
+					<div class="details">
+						<h4>Eggless Divine Buttersctoch <br>Cake</h4>
+						<h4><font color=black>Rs 545</font></h4>
+					</div>
+					
+				</div>
+				<div class="box2"><img src="pistacake.avif"/>
+					<div class="details">
+						<h4>Luscious Rasmalai Pista Cream <br> Cake</h4>
+						<h4><font color=black>Rs 895</font></h4>
+					</div>
+				</div>
+				<div class="box3"><img src="artisticcake.avif"/>
+					<div class="details">
+						<h4>Artistic Chocolate Pleasure<br>cake</h4>
+						<h4><font color=black>Rs 545</font></h4>
+					</div>
+				</div>
+				<div class="box4"><img src="trufflecake.avif"/>
+					<div class="details">
+						<h4>Sumptuous Chocolate<br> Truffle Cake</h4>
+						<h4><font color=black>Rs 595</font></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="multiarea">
+			<div class="inner">
+				<div class="heading">
+					<div class="heading1"><h2><font color="#D45A7D">Bestseller Cakes Online</font></h2></div>
+					<div class="heading2"><h3>View more</h3></div>
+				
+				</div>	
+				<div class="squarea">
+					<img src="bcake2.avif"/>
+				</div>
+				<div class="squareb">
+					<img src="bcake3.avif"/>
+				</div>
+				<div class="squarec">
+					<img src="bcake4.avif"/>
+				</div>
+				<div class="squared">
+					<img src="bcake5.avif"/>
+				</div>
+				<div class="squaree">
+					<img src="bcake6.avif"/>
+				</div>
+				<div id="describe">
+					<div class="describe1">
+						<h3>Birthday Cakes</h3>
+					</div>
+					<div class="describe2">
+						<h3>Anniversary Cakes</h3>
+					</div>
+					<div class="describe3">
+						<h3>Regular Cakes</h3>
+					</div>
+					<div class="describe4">
+						<h3>Eggless Cakes</h3>
+					</div>
+					<div class="describe5">
+						<h3>Photo Cakes</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="mirarea">
+			<div class="inner">
+				<div class="trend"><h1>Trending Now</h1></div>
+				<div class="mirror1">
+					<img src="pullme.avif"/>
+					<p>Pull Me Up Cakes</p>
+				</div>
+				<div class="mirror2">
+					<img src="bomb.avif"/>
+					<p>Bomb Cakes</p>
+				</div>
+				<div class="mirror3">
+					<img src="pinata.avif"/>
+					<p>Pinata Cakes</p>
+				</div>
+				<div class="mirror4">
+					<img src="dessert.avif"/>
+					<p>Desserts</p>
+				</div>
+			</div>
+		</div>
+		<div id="minearea">
+			<div class="inner">
+				<div class="hd">
+					<div class="hd1"><h2><font color="#D45A7D">Cakes by Flavour</font></h2></div>
+					<div class="hd2"><h3>View more</h3></div>
+				
+				</div>	
+				<div class="sqa">
+					<img src="bf.avif"/>
+				</div>
+				<div class="sqb">
+					<img src="ck.avif"/>
+				</div>
+				<div class="sqc">
+					<img src="fk.avif"/>
+				</div>
+				<div class="sqd">
+					<img src="pk.avif"/>
+				</div>
+				<div class="sqe">
+					<img src="rk.avif"/>
+				</div>
+				<div id="des">
+					<div class="des1">
+						<h3>BlackForest Cakes</h3>
+					</div>
+					<div class="des2">
+						<h3>Chocolate Cakes</h3>
+					</div>
+					<div class="des3">
+						<h3>Fruit Cakes</h3>
+					</div>
+					<div class="des4">
+						<h3>Pineapple Cakes</h3>
+					</div>
+					<div class="des5">
+						<h3>Red Velvet Cakes</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="larea">
+			<div class="inner">
+				<div class="la1"><h1>Premium Cakes</h1>
+				</div>
+				<div class="cube1"><img src="premium1.avif"/>
+					<div class="ldetails">
+						<h4>Berry Bliss Red Velvet Cake</h4>
+						<h4><font color=black>Rs 945</font></h4>
+					</div>
+					
+				</div>
+				<div class="cube2"><img src="premium2.avif"/>
+					<div class="ldetails">
+						<h4>Chocolatey Ferrero Rocher Cake</h4>
+						<h4><font color=black>Rs 895</font></h4>
+					</div>
+				</div>
+				<div class="cube3"><img src="premium3.avif"/>
+					<div class="ldetails">
+						<h4>Blueberry Bliss Cake</h4>
+						<h4><font color=black>Rs 985</font></h4>
+					</div>
+				</div>
+				<div class="cube4"><img src="premium4.avif"/>
+					<div class="ldetails">
+						<h4>Sumptuous Chocolate Truffle Cake</h4>
+						<h4><font color=black>Rs 895</font></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="darea">
+			<div class="inner">
+				<div class="da1">
+					<ul type="none">
+						<li class="bor">
+							<h1>SHOP WITH US</h1>
+						</li>
+						<li><b>Shop All</b></li>
+						<br>	
+						<li><b>Rewards</b></li>
+						<br>	
+						<li><b>Corporate Christmas<br>Gifting</b></li> 
+					</ul>
+				</div>
+				<div class="da1">
+					<ul type="none">
+						<li class="bor">
+							<h1>ABOUT</h1>
+						</li>
+						<li> <b>About Us</b></li><br>
+						<li> <b>No Nasties.All Good.</b></li><br>
+						<li><b>Our Story</b></li><br>
+						<li><b>Work With Us</b></li><br>
+					</ul>
+				</div>
+				<div class="da1">
+					<ul type="none">
+						<li class="bor">
+							<h1>CUSTOMER SERVICE</h1>
+						</li>
+						<li> <b>Contact Us</b></li><br>
+						<li><b> FAQ</b></li><br>
+					</ul>
+				</div>
+				<div class="da1">
+					<ul type="none">
+						<li class="bor">
+							<h1>LET US SWEETEN UP<br> YOUR INBOX</h1>
+						</li>
+						<li><b>LET'S SWEET TALK</b></li><br>
+					</ul>
+				</div>
+				<div id="m1"></div>
+				<div id="n1"><h1>Design & Developed By :</h1><font color="#B49374"><b>GITA KUMARI</b></font></div>
+			</div>
+		</div>
+	</body>
+</html>
